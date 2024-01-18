@@ -1,0 +1,8 @@
+.card {
+  width: 100%;
+}
+
+.card-header .img {
+  max-width: 100%;
+  @include b-radius(50%);
+}

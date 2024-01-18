@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  @include padding-y(3.75rem);
+  @include color('seventh');
+
+
+  @include breakpoint-up('md') {
+    @include padding-y(4.5rem);
+  }
+
+}
+
+
+
+
+
+

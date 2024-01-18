@@ -1,0 +1,14 @@
+.panel {
+  max-width: 700px;
+  @include bg-color('ninth');
+  @include color('eight');
+  padding: 1.5rem;
+  @include b-radius(0.5rem);
+
+  &-body {
+    
+    margin-top: 1rem;
+
+  }
+
+}

@@ -1,0 +1,24 @@
+.header-second {
+  @extend .header;
+  position: relative;
+  text-align: center;
+
+
+  @include breakpoint-up('md') {
+    text-align: left;
+  }
+
+}
+
+.header-second .img {
+  position: absolute;
+  display: none;
+
+
+  @include breakpoint-up('md') {
+    display: block;
+    @include vertical-alignment;
+    right: -2rem;
+  }
+
+}
